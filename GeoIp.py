@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# 
+# This was broken code in Violent Python, here is the fix for Chapter 4
+#
 import pygeoip
 gi = pygeoip.GeoIP('/opt/GeoIP/Geo.dat')
 
