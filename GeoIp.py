@@ -7,7 +7,7 @@ gi = pygeoip.GeoIP('/opt/GeoIP/Geo.dat')
 def printRecord(tgt):
     rec = gi.record_by_name(tgt)
     city = rec['city']
-    region = rec['region_code']
+    region = rec['region_code'] # region_name does not exist
     country = rec['country_name']
     long = rec['longitude']
     lat = rec['latitude']
